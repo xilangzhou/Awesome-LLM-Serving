@@ -55,6 +55,7 @@ A curated list that categorizes the existing Large Language Model (LLM) Serving 
 - [SpecReason:](http://arxiv.org/abs/2504.07891) Fast and Accurate Inference-Time Compute via Speculative Reasoning | Princeton
 - [MineDraft:](https://arxiv.org/abs/2603.18016) A Framework for Batch Parallel Speculative Decoding (overlaps draft & verify; +75% throughput, -39% latency; vLLM plugin) | NUS & MIT
 - [llmash:](https://github.com/omgitsbase/llmash) Ollama-compatible server on a llama.cpp fork that runs each speculative round (verify, accept, MTP draft steps) as one CUDA graph | Open Source
+- [Kapitsa:](https://github.com/nace-ai/kapitsa) Native C++ LLM inference engine for Apple silicon (Metal kernels and the Neural Engine) whose KFlash speculative decoding verifies a best-first tree of a draft model's candidates, with the same output as plain decoding | Open Source
 ### Multiple LLM
 - [MuxServe:](https://arxiv.org/abs/2404.02015) Flexible Multiplexing for Efficient Multiple LLM Serving
 - [BlockLLM:](https://arxiv.org/abs/2404.18322) Multi-tenant Finer-grained Serving for Large Language Models
