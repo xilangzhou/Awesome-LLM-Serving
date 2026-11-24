@@ -21,6 +21,7 @@ A curated list that categorizes the existing Large Language Model (LLM) Serving 
 - [vAttention:](https://arxiv.org/abs/2405.04437) Dynamic Memory Management for Serving LLMs without PagedAttention
 - [DéjàVu](https://arxiv.org/abs/2403.01876): KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving
 - [KV Cache Store](https://github.com/kvcachestore/kvcdn): Hosted KV-cache artifact registry plus an open-source Rust CLI. Precompute attention states once, verify them bit-exact, and reuse them across RAG and long-context prompts to cut prefill cost and latency. Free tier: 20 artifacts.
+- [The FastPath Agentic Recipe](https://doi.org/10.5281/zenodo.24457433): Measurement of six existing SGLang flags (FP8 KV cache and HiCache) on the published InferenceX 2×H200 agent cell | FastPathLabs, Zenodo 2026
 
 ### Disaggregated
 - [DistServe](https://arxiv.org/abs/2401.09670): Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving
